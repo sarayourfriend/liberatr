@@ -5,7 +5,13 @@ description = ""
 authors = [
     {name = "sarayourfriend", email = "24264157+sarayourfriend@users.noreply.github.com"},
 ]
-dependencies = []
+dependencies = [
+    "httpx>=0.23.0",
+    "httpx-oauth>=0.7.0",
+    "fastapi>=0.78.0",
+    "jinja2>=3.1.2",
+    "uvicorn[standard]>=0.17.6",
+]
 requires-python = ">=3.10"
 license = {text = "GPLv3"}
 [tool.pdm]
