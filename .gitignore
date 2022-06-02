@@ -1,0 +1,4 @@
+.env
+__pypackages__
+.pdm.toml
+__pycache__
